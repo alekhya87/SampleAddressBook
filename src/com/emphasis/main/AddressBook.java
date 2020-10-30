@@ -21,9 +21,7 @@ public class AddressBook {
         System.out.println("7. Sort A Person By Zipcode");
         System.out.println("8. Print All Persons ");
         System.out.println("9. Print A person Details");
-        //System.out.println("10. Save the Address Book");
-        //System.out.println("11. Close Address Book");
-        System.out.println("12. Quit the Address Book program");
+        System.out.println("10. Quit the Address Book program");
 
             int option = scanner.nextInt();
 
@@ -73,16 +71,7 @@ public class AddressBook {
                     System.out.println("Enter the person you want to print the details");
                     addressBookController.printPersonDetails();
                     break;
-                /*case 10:
-                    //code
-                    System.out.println("save Address book");
-                    break;
-                case 11:
-                    //code
-                    System.out.println("close address book");
-
-                    break;*/
-                case 12:
+                case 10:
                     //code
                     System.out.println("Quit address book");
                     return;
